@@ -18,24 +18,20 @@ object Arrays {
     val greetString: Array[String] = new Array[String](3)
     greetString(0) = "Hello"
     // the same
-    greetString.update(0,"Hello")
+    greetString.update(0, "Hello")
     greetString(1) = ", "
     greetString(2) = "world! \n"
 
-    for (i<- 0 to 2){
+    for (i <- 0 to 2) {
       println(greetString(i))
     }
     println("-------------------------------pretty divider-------------------------------")
     // the same to
-    for (i<- 0 to (2)) println(greetString.apply(i))
+    for (i <- 0 to (2)) println(greetString.apply(i))
 
     println("-------------------------------pretty divider-------------------------------")
 
     Console.print(10)
     // the same
-
-
   }
-
-
 }

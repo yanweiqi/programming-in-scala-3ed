@@ -14,7 +14,7 @@ class CountriesMapSpec extends FlatSpec with Matchers {
 
 object AppTest {
 
-  def factorial(x: BigInteger): BigInteger ={
+  def factorial(x: BigInteger): BigInteger = {
     if (x == BigInteger.ZERO) BigInteger.ONE else x.multiply(factorial(x.subtract(BigInteger.ONE)))
   }
 
